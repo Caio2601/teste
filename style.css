@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: gray;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+header {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h2, h3, h4 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu a {
+  background: #ffffff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: black;
+  text-transform: uppercase;
+  border: 3px solid transparent;
+}
+
+.menu a:hover {
+  border: 3px solid #e21;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  background: #ffffff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+}
+
+.introducao h2 {
+  font-size: 2rem;
+}
+
+.introducao::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+
+.botao {
+  background: #e21;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.botao:hover {
+  background: #900;
+}
+
+.subtitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.vantagens {
+  background: #fff;
+  padding: 40px;
+}
+
+.vantagens-item {
+  padding: 20px;
+}
+
+.vantagens-item:nth-child(odd) {
+  background-color: gray;
+}
+
+.vantagens-item:hover {
+  border-left: 4px solid #e21;
+}
+
+.rodape {
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
